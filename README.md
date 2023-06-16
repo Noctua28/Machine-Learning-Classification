@@ -18,7 +18,7 @@ The dataset comprises a collection of wine samples with corresponding features a
 
 1. Scatter Plot: The scatter plot showing the relationship between wine price and the number of reviews reveals an interesting trend. It indicates that wines at lower price points tend to have a higher number of reviews. This suggests that consumers are more likely to review and provide feedback on wines that are more affordable, possibly due to their higher consumption rate.
 
-2. Bar Plot: The bar plot displaying the average rating for each type of wine allows us to compare the quality of different wine types. We observe that Type X wines tend to have the highest average ratings, while Type Y wines have the lowest average ratings. This insight provides valuable information to stakeholders about the relative quality levels of different wine types.
+2. Bar Plot: The bar plot displaying the average rating for each type of wine allows us to compare the quality of different wine types. We observe that red wines tend to have the highest average ratings, while white and wines in the other category have the lower average ratings. This insight provides valuable information to stakeholders about the relative quality levels of different wine types.
 
 ## Model Metrics
 
@@ -32,8 +32,8 @@ The Random Forest Regressor model offers a highly accurate and reliable solution
 
 Based on the model's performance and the analytical findings, we provide the following recommendations to stakeholders:
 
-1. Focus on enhancing the quality and reputation of Type X wines, which consistently received the highest average ratings. This could involve allocating additional resources to vineyards and production processes that contribute to the desired characteristics of Type X wines.
+1. Focus on enhancing the quality and reputation of red wines, which consistently received the highest average ratings. This could involve allocating additional resources to vineyards and production processes that contribute to the desired characteristics of red wines.
 
-2. Investigate the factors that contribute to the lower ratings of Type Y wines and explore opportunities for improvement. This could include analyzing customer feedback, conducting sensory evaluations, and adjusting production techniques to enhance the quality and appeal of Type Y wines.
+2. Investigate the factors that contribute to the lower ratings of white and wines in the other category and explore opportunities for improvement. This could include analyzing customer feedback, conducting sensory evaluations, and adjusting production techniques to enhance the quality and appeal.
 
 These recommendations are based on the model's ability to accurately predict wine quality and the insights gained from the analysis of the dataset. By implementing these recommendations, stakeholders can optimize their wine offerings and drive customer satisfaction and business growth.
