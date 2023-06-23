@@ -16,9 +16,27 @@ The dataset comprises a collection of wine samples with corresponding features a
 
 ## Analytical Insights
 
-1. Scatter Plot: The scatter plot showing the relationship between wine price and the number of reviews reveals an interesting trend. It indicates that wines at lower price points tend to have a higher number of reviews. This suggests that consumers are more likely to review and provide feedback on wines that are more affordable, possibly due to their higher consumption rate.
+1. Scatter Plot:
 
-2. Bar Plot: The bar plot displaying the average rating for each type of wine allows us to compare the quality of different wine types. We observe that red wines tend to have the highest average ratings, while white and wines in the other category have the lower average ratings. This insight provides valuable information to stakeholders about the relative quality levels of different wine types.
+![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/cbeced02-8c38-4cd0-87aa-e84f45c98f7a)
+
+The scatter plot is displaying the relationship between the price of each wine and the number of reviews it has received. Each dot on the plot represents an individual wine in our dataset.
+
+Looking at the plot, it seems that wines that are less expensive, or at lower price points, tend to have more reviews. This could be for a number of reasons. One possible explanation is that more affordable wines are more accessible to a larger number of people, and therefore are likely to be purchased and reviewed more often.
+
+Additionally, wines with a large number of reviews are likely popular, either due to their quality, their price point, or a combination of both. This popularity could drive further sales and reviews, creating a feedback loop that results in these wines having a significant number of reviews.
+
+Conversely, wines at higher price points seem to have fewer reviews. This may be due to them being less accessible due to their cost, resulting in fewer purchases and, subsequently, fewer reviews.
+
+However, it's important to remember that this is a broad trend, and there will be exceptions. For example, a high-priced wine could be extremely popular and have many reviews, or a low-priced wine might be less popular and have fewer reviews. Additionally, the quality of reviews (reflected in the rating) isn't accounted for in this plot - a wine with many reviews might have a low average rating, or a wine with few reviews might have a high average rating.
+
+2. Bar Plot:
+
+![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/7c20e355-2a0f-4efd-a00f-3ee18e3233cf)
+
+The bar plot visualizes the average rating for each type of wine. Each bar in the plot represents a different type of wine, and the height of the bar corresponds to the average rating of that wine type.
+
+This plot simplifies the complex world of wines into broad categories. Many other factors like the winery, region, price, and individual preferences play a massive role in a wine's rating and aren't considered in this visualization.
 
 ## Model Metrics
 
