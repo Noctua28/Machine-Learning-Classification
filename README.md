@@ -20,17 +20,13 @@ The dataset comprises a collection of wine samples with corresponding features a
 
 As part of the data exploration and analysis, various techniques were applied to understand the structure of the data and the relationships between variables. Key findings from this analysis were:
 
-1. Scatter Plot - Price vs. Rating:
+1. **Scatter Plot - Price vs. Rating:** We plotted a scatter plot to examine the relationship between the price of a wine and its rating. The scatter plot showed a positive correlation between price and rating, which suggests that more expensive wines generally have higher quality ratings. However, it was also noticeable that some high-priced wines did not receive high ratings, and some low-priced wines were highly rated. This observation underlines that while price may be an indicator of quality, other factors are also at play.
 
 ![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/cbeced02-8c38-4cd0-87aa-e84f45c98f7a)
 
-We plotted a scatter plot to examine the relationship between the price of a wine and its rating. The scatter plot showed a positive correlation between price and rating, which suggests that more expensive wines generally have higher quality ratings. However, it was also noticeable that some high-priced wines did not receive high ratings, and some low-priced wines were highly rated. This observation underlines that while price may be an indicator of quality, other factors are also at play.
-
-2. Heatmap of Correlations:
+2. **Heatmap of Correlations:** A heatmap was created to visualize the correlation between different variables in the dataset. The heatmap provided useful insights into which features strongly influence the wine rating. For example, the number of reviews and the year of production showed a considerable correlation with the wine rating. Interestingly, variables such as acidity and body didn't show a strong correlation with the rating, indicating that these features alone might not be significant predictors of wine quality.
 
 ![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/d2f36bcd-8d39-48e2-8e79-fc12ac3ab003)
-
-A heatmap was created to visualize the correlation between different variables in the dataset. The heatmap provided useful insights into which features strongly influence the wine rating. For example, the number of reviews and the year of production showed a considerable correlation with the wine rating. Interestingly, variables such as acidity and body didn't show a strong correlation with the rating, indicating that these features alone might not be significant predictors of wine quality.
 
 Through these insights and the machine learning models, we better understand how different factors contribute to wine quality. This information can guide decisions related to wine production, pricing, and marketing strategies.
 
