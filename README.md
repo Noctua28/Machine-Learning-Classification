@@ -18,25 +18,27 @@ The dataset comprises a collection of wine samples with corresponding features a
 
 The dataset comprises a collection of wine samples with corresponding features and quality ratings. Each sample includes information such as the winery, year of production, wine type, body and acidity levels, and price. The target variable, rating, represents the quality rating of the wine on a numerical scale.
 
-Here are two critical insights derived from our data analysis:
+As part of the data exploration and analysis, various techniques were applied to understand the structure of the data and the relationships between variables. Key findings from this analysis were:
 
-1. Scatter Plot:
+1. Scatter Plot - Price vs. Rating:
 
 ![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/cbeced02-8c38-4cd0-87aa-e84f45c98f7a)
 
-The scatter plot shows the relationship between the price of a bottle of wine and its corresponding quality rating. We can observe a general upward trend, suggesting that higher-priced wines tend to have higher quality ratings.
+We plotted a scatter plot to examine the relationship between the price of a wine and its rating. The scatter plot showed a positive correlation between price and rating, which suggests that more expensive wines generally have higher quality ratings. However, it was also noticeable that some high-priced wines did not receive high ratings, and some low-priced wines were highly rated. This observation underlines that while price may be an indicator of quality, other factors are also at play.
 
-2. Heatmap:
+2. Heatmap of Correlations:
 
 ![image](https://github.com/Noctua28/Spanish-Wine-Quality-Prediction/assets/65126638/d2f36bcd-8d39-48e2-8e79-fc12ac3ab003)
 
-The heatmap shows the correlation between different features in our dataset. Strong correlations exist between wine quality and several factors, such as year, price, and body. These insights allow us to focus our analysis on these highly influential factors.
+A heatmap was created to visualize the correlation between different variables in the dataset. The heatmap provided useful insights into which features strongly influence the wine rating. For example, the number of reviews and the year of production showed a considerable correlation with the wine rating. Interestingly, variables such as acidity and body didn't show a strong correlation with the rating, indicating that these features alone might not be significant predictors of wine quality.
+
+Through these insights and the machine learning models, we better understand how different factors contribute to wine quality. This information can guide decisions related to wine production, pricing, and marketing strategies.
 
 ## Model Metrics
 
 To address the business problem, we adopted a supervised machine learning approach since we had a well-defined target variable - wine quality. The first step was to clean and pre-process the data to suit the model training process. This included normalizing numerical features and encoding categorical features.
 
-We trained multiple models, including Linear Regression, Decision Tree, and Random Forest, and used cross-validation to optimize the model parameters. To avoid overfitting and make our models more generalizable, we split the data into training and test sets.
+We trained multiple models, including Linear Regression, Decision Tree, and Random Forest, and used cross-validation to optimize the model parameters. We split the data into training and test sets to avoid overfitting and make our models more generalizable.
 
 The 'Random Forest' model was our best-performing model. Here are its performance metrics:
 
