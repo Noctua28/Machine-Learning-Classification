@@ -54,8 +54,8 @@ Our production model, the 'Random Forest' model, performed significantly well in
 
 Based on our model's performance and our analysis of the data, we have the following recommendations for our stakeholders:
 
-Focus on Value for Money: Given the correlation between price and quality, producers should strive to create wines that provide good value for money. Simultaneously, sellers could invest more in higher-priced wines, which are often associated with higher quality.
+**Focus on Value for Money:** Given the correlation between price and quality, producers should strive to create wines that provide good value for money. Simultaneously, sellers could invest more in higher-priced wines, which are often associated with higher quality.
 
-Consider the Importance of Body: Since body showed a strong correlation with quality, winemakers should take this into account during production. Sellers should also use this information to guide their purchasing decisions and marketing strategies.
+**Consider the Importance of Body:** Since body showed a strong correlation with quality, winemakers should take this into account during production. Sellers should also use this information to guide their purchasing decisions and marketing strategies.
 
 Remember, these recommendations are based on statistical analysis and machine learning models and should be combined with professional judgment and industry knowledge for optimal decision-making.
